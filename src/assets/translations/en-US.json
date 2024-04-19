@@ -2149,19 +2149,19 @@
             "valid": "valid"
         },
         "links": {
-            "Community": "Community",
-            "Contribute": "Contribute",
-            "Developer Group": "Developer Group",
-            "Developer Zone": "Developer Zone",
-            "Donate": "Donate",
+            "Community": "",
+            "Contribute": "",
+            "Developer Group": "",
+            "Developer Zone": "",
+            "Donate": "",
             "Forgot Password?": "Forgot Password?",
-            "Functional Specifications": "Functional Specifications",
-            "IRC": "IRC",
-            "Key Design Principles": "Key Design Principles",
-            "Resources": "Resources",
-            "User Group": "User Group",
-            "User Manual": "User Manual",
-            "Working with Code": "Working with Code"
+            "Functional Specifications": "",
+            "IRC": "",
+            "Key Design Principles": "",
+            "Resources": "",
+            "User Group": "",
+            "User Manual": "",
+            "Working with Code": ""
         },
         "menus": {
             "Accounting": "Accounting",
