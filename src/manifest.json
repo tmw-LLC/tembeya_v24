@@ -1,12 +1,12 @@
 {
-  "short_name": "SurePay",
-  "name": "SurePay Web App",
+  "short_name": "TASA PESA",
+  "name": "TASA PESA Web App",
   "start_url": "/",
   "scope": "/",
   "theme_color": "#fff",
   "background_color": "#fff",
   "display": "standalone",
-  "description": "SurePay Web App is the default web application built on top of the Fineract platform for the Mifos user community leveraging the popular Angular framework.",
+  "description": "TASA PESA Web App is the default web application built leveraging the popular Angular framework.",
   "icons": [
     {
       "src": "assets/images/MifosX_logo.png",
