@@ -236,7 +236,7 @@ export class WebAppComponent implements OnInit {
   }
 
   help() {
-    window.open('https://surepayltd.com/', '_blank');
+    window.open('https://tasapesaltd.com/', '_blank');
   }
 
   // Monitor all keyboard events and excute keyboard shortcuts
