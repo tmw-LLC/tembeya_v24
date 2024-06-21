@@ -1,46 +1,49 @@
 .loader-wrapper {
   height: 100vh;
   width: 100vw;
+  position: relative; /* Ensures the absolute positioning of circles */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .triangle {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    position: absolute;
-    animation: rotate 0.8s infinite 0.2s;
-  }
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  animation: rotate 0.8s infinite linear;
+}
 
-  .bottom {
-    border-width: 0 90px 90px 90px;
-    border-color: transparent transparent #1fb050 transparent;
-    bottom: calc(50% - 100px);
-    left: calc(50% - 90px);
-  }
+.circle1 {
+  background-color: #1fb050;
+  bottom: calc(50% - 15px); /* Centers the circle vertically */
+  left: calc(50% - 15px); /* Centers the circle horizontally */
+  animation-delay: 0s;
+}
 
-  .top {
-    border-width: 90px 90px 0 90px;
-    border-color: #b4d575 transparent transparent transparent;
-    top: calc(50% - 100px);
-    left: calc(50% - 90px);
-  }
+.circle2 {
+  background-color: #b4d575;
+  top: calc(50% - 15px);
+  left: calc(50% - 15px);
+  animation-delay: 0.2s;
+}
 
-  .left {
-    border-width: 90px 0 90px 90px;
-    border-color: transparent transparent transparent #2E368F;
-    top: calc(50% - 90px);
-    left: calc(50% - 100px);
-  }
+.circle3 {
+  background-color: #5D8901;
+  top: calc(50% - 15px);
+  left: calc(50% - 50px); /* Adjusted to maintain the layout */
+  animation-delay: 0.4s;
+}
 
-  .right {
-    border-width: 90px 90px 90px 0;
-    border-color: transparent #1daeec transparent transparent;
-    top: calc(50% - 90px);
-    right: calc(50% - 100px);
-  }
+.circle4 {
+  background-color: #1daeec;
+  top: calc(50% - 15px);
+  right: calc(50% - 50px); /* Adjusted to maintain the layout */
+  animation-delay: 0.6s;
+}
 
-  @keyframes rotate {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-  }
-
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
