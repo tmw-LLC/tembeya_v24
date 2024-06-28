@@ -1,12 +1,12 @@
 {
-  "short_name": "TASA PESA",
-  "name": "TASA PESA Web App",
+  "short_name": "Tembeya",
+  "name": "Tembeya Web App",
   "start_url": "/",
   "scope": "/",
   "theme_color": "#fff",
   "background_color": "#fff",
   "display": "standalone",
-  "description": "TASA PESA Web App is the default web application built leveraging the popular Angular framework.",
+  "description": "Tembeya Web App is the default web application built leveraging the popular Angular framework.",
   "icons": [
     {
       "src": "assets/images/MifosX_logo.png",
