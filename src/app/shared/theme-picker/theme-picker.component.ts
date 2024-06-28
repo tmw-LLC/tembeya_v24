@@ -23,7 +23,7 @@ export class ThemePickerComponent implements OnInit {
   /** Default theme for the application. */
   currentTheme: Theme = {
     href: 'denim-yellowgreen.css',
-    primary: '#2E368F',
+    primary: '#37A652',
     accent: '#B4D575',
     isDark: false,
     isDefault: true
