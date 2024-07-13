@@ -23,9 +23,9 @@
       </mat-select>
     </mat-form-field>
 
-    <mat-form-field fxFlex="23%">
+<mat-form-field fxFlex="23%">
   <mat-label>{{"labels.inputs.External Id" | translate}}</mat-label>
-  <input matInput formControlName="externalId">
+  <input matInput formControlName="externalId" required>
   <mat-error *ngIf="createClientForm.controls.externalId.hasError('required')">
     {{"labels.inputs.External Id" | translate}} {{"labels.commons.is" | translate}} <strong>{{"labels.commons.required" | translate}}</strong>
   </mat-error>
