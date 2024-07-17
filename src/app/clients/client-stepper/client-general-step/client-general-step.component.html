@@ -23,9 +23,9 @@
       </mat-select>
     </mat-form-field>
 
-    <mat-form-field fxFlex="48%">
-      <mat-label>{{"labels.inputs.Mobile No" | translate}}</mat-label>
-      <input matInput type="number" formControlName="mobileNo">
+    <mat-form-field fxFlex="23%">
+      <mat-label>{{"labels.inputs.External Id" | translate}}</mat-label>
+      <input matInput formControlName="externalId">
     </mat-form-field>
 
     <mat-form-field *ngIf="createClientForm.contains('fullname')" fxFlex="48%">
@@ -142,13 +142,10 @@
 
     <mat-divider fxFlex="98%"></mat-divider>
 
-<mat-form-field fxFlex="48%" appearance="fill">
-  <mat-label>{{ "labels.inputs.Mobile No" | translate }}</mat-label>
-  <input matInput type="number" formControlName="mobileNo" required>
-  <mat-error *ngIf="form.get('mobileNo').hasError('required')">
-    {{ "errors.required" | translate }}
-  </mat-error>
-</mat-form-field>
+    <mat-form-field fxFlex="48%">
+      <mat-label>{{"labels.inputs.Mobile No" | translate}}</mat-label>
+      <input matInput type="number" formControlName="mobileNo">
+    </mat-form-field>
 
     <mat-form-field fxFlex="48%">
       <mat-label>{{"labels.inputs.Email Address" | translate}}</mat-label>
